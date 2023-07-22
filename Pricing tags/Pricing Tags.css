@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500&family=Poppins:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.inner-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    line-height: 0px;
+}
+
+.prices {
+    background: linear-gradient(45deg, rgb(148, 148, 210) , rgb(236, 151, 166));
+    text-align: center;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: ease-in-out 0.5s;
+}
+
+.prices h5 {
+    font-size: 18px;
+}
+
+.prices h1 {
+    font-size: 30px;
+}
+
+.plan-features ul li {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.prices button {
+    background-color: orangered;
+    padding-inline: .8rem;
+    padding-block: .5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.prices:hover{
+    transform: rotate3d(1, 1, 1, 5deg);
+    cursor: pointer;
+}
